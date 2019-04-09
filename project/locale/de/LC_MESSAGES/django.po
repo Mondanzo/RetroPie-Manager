@@ -81,7 +81,7 @@ msgstr "Die Romdatei ist nicht gültig für dieses System"
 
 #: manager_frontend/forms/systems.py:32
 msgid "Add a new system"
-msgstr ""
+msgstr "Füge ein neues System hinzu"
 
 #: manager_frontend/templates/manager_frontend/bios_list.html:27
 #: manager_frontend/templates/manager_frontend/config_form.html:13
@@ -97,7 +97,7 @@ msgstr "Pfad"
 #: manager_frontend/templates/manager_frontend/rom_list.html:28
 #: manager_frontend/templates/manager_frontend/systems_list.html:7
 msgid "Total"
-msgstr ""
+msgstr "Gesamt"
 
 #: manager_frontend/templates/manager_frontend/bios_list.html:54
 msgid "Upload a bios"
@@ -107,7 +107,8 @@ msgstr "Bios hochladen"
 msgid ""
 "This is the full list of supported Bios, existing bios you have uploaded "
 "will be decorated and followed with a checkbox"
-msgstr ""
+msgstr "Dies ist eine Liste mit allen unterstützten Bios. Bios die du "
+"hochgeladen hast werden mit einem Kontrollkästchen dekoriert"
 
 #: manager_frontend/templates/manager_frontend/bios_list.html:85
 #: manager_frontend/templates/manager_frontend/bios_list.html:114
@@ -148,7 +149,7 @@ msgstr "Speichern"
 
 #: manager_frontend/templates/manager_frontend/home.html:14
 msgid "<strong>Monitor</strong> your system resources"
-msgstr ""
+msgstr "<strong>Überwache</strong> deine System Ressourcen"
 
 #: manager_frontend/templates/manager_frontend/home.html:20
 msgid "Read and edit the Recalbox <strong>Configuration</strong> file"
@@ -185,21 +186,21 @@ msgstr ""
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:36
 msgid "Memory"
-msgstr ""
+msgstr "Speicher"
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:39
 #, python-format
 msgid "Free: %(size)s"
-msgstr ""
+msgstr "Frei: %(size)s"
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:48
 #, python-format
 msgid "Total: %(size)s"
-msgstr ""
+msgstr "Gesamt: %(size)s"
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:54
 msgid "CPU Temperature"
-msgstr ""
+msgstr "CPU Temperatur"
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:56
 msgid "Max"
@@ -207,11 +208,11 @@ msgstr ""
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:64
 msgid "File system"
-msgstr ""
+msgstr "Datei System"
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:68
 msgid "Device"
-msgstr ""
+msgstr "Gerät"
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:69
 msgid "Mount"
@@ -219,26 +220,28 @@ msgstr ""
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:70
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:71
 msgid "Usage"
-msgstr ""
+msgstr "Verwendung"
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:72
 msgid "Used"
-msgstr ""
+msgstr "Verwendet"
 
 #: manager_frontend/templates/manager_frontend/monitoring.html:73
 msgid "Free"
-msgstr ""
+msgstr "Frei"
 
 #: manager_frontend/templates/manager_frontend/rom_list.html:35
 #, python-format
 msgid ""
 "This system requires one or more <a href=\"%(bios_url)s\">bios</a> file that "
 "are missing from your installation:"
-msgstr ""
+msgstr "Dieser Emulator benötigt eine oder mehrere "
+"<a href=\"%(bios_url)s\">Biosdateien</a> welche nicht in deiner Installation "
+"gefunden wurden:"
 
 #: manager_frontend/templates/manager_frontend/rom_list.html:64
 msgid "Upload a rom"
@@ -246,15 +249,15 @@ msgstr "Rom hochladen"
 
 #: manager_frontend/templates/manager_frontend/rom_list.html:97
 msgid "Size"
-msgstr "Grösse"
+msgstr "Größe"
 
 #: manager_frontend/templates/manager_frontend/systems_list.html:31
 msgid "Available systems"
-msgstr ""
+msgstr "Verfügbare Systeme"
 
 #: manager_frontend/templates/manager_frontend/systems_list.html:37
 msgid "Add"
-msgstr ""
+msgstr "Hinzufügen"
 
 #: manager_frontend/views/bios.py:90 manager_frontend/views/roms.py:128
 msgid "File has been uploaded: {}"
@@ -266,17 +269,17 @@ msgstr "Gelöschte Datei(en): {}"
 
 #: manager_frontend/views/config.py:75
 msgid "File has been backuped then edited"
-msgstr "Datei wurde gesichert vor dem editieren"
+msgstr "Datei wurde gesichert vor dem bearbeiten"
 
 #: manager_frontend/views/config.py:77
 msgid "File has been edited"
-msgstr "Datei wurde editiert"
+msgstr "Datei wurde bearbeitet"
 
 #: manager_frontend/views/systems.py:70
 #, fuzzy
 #| msgid "File has been edited"
 msgid "System \"{}\" has been created"
-msgstr "Datei wurde editiert"
+msgstr "System \"{}\" wurde erstellt"
 
 #: settings.py:122
 msgid "English"
@@ -296,11 +299,11 @@ msgstr ""
 
 #: templates/404.html:6 templates/404.html.py:14
 msgid "Not found"
-msgstr ""
+msgstr "Nicht gefunden"
 
 #: templates/404.html:15
 msgid "The ressource you tried to reach does not exists"
-msgstr ""
+msgstr "Diese Seite wurde nicht gefunden"
 
 #: templates/500.html:6 templates/500.html.py:14
 msgid "Error 500"
@@ -308,13 +311,14 @@ msgstr ""
 
 #: templates/500.html:6 templates/500.html.py:14
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Interner Server Fehler"
 
 #: templates/500.html:15
 msgid ""
 "The server encountered an internal server error or misconfiguration and was "
 "unable to complete your request."
-msgstr ""
+msgstr "Ein interner Serverfehler ist aufgetreten oder die die Installation "
+"ist beschädigt und der Server konnte die Anfrage nicht verarbeiten."
 
 #: templates/skeleton.html:52
 msgid "Roms"
